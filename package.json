@@ -1,0 +1,25 @@
+{
+  "name": "file-transfer-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:satyamtiwari736182/file-transfer-app.git",
+  "author": "Satyam <satyamtiwari736182@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
